@@ -6,12 +6,16 @@ Para evaluar este proyecto, es necesario tener instalado en el sistema:
 
 ## Instalación y Configuración
 1. Clonar el repositorio.
+git clone https://github.com/nicogarcia045-afk/50916.git
 2. Abrir una terminal y navegar **estrictamente hacia adentro de la subcarpeta `Proyecto`**:
-    `bash`
-   cd Proyecto
+    ```
+    bash
+    ```
+   cd 50916\Proyecto
 
    Instalar las dependencias de ANTLR (esto leerá el package.json y descargará la versión 4.9.3 exacta requerida):
-npm install
+
+   npm install
 
 Ejecución de Pruebas
 Los archivos de texto de prueba se encuentran en la raíz del repositorio. Para ejecutar el analizador, la terminal debe permanecer dentro de la carpeta Proyecto.
