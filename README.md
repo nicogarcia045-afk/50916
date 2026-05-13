@@ -8,10 +8,8 @@ Para evaluar este proyecto, es necesario tener instalado en el sistema:
 1. Clonar el repositorio.
 git clone https://github.com/nicogarcia045-afk/50916.git
 2. Abrir una terminal y navegar **estrictamente hacia adentro de la subcarpeta `Proyecto`**:
-    ```
-    bash
-    ```
-   cd 50916\Proyecto
+    ``` cd 50916\Proyecto ```
+
 
    Instalar las dependencias de ANTLR (esto leerá el package.json y descargará la versión 4.9.3 exacta requerida):
 
