@@ -1,0 +1,120 @@
+// Generated from Formulario.g4 by ANTLR 4.9.3
+// jshint ignore: start
+import antlr4 from 'antlr4';
+
+
+
+const serializedATN = ["\u0003\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786",
+    "\u5964\u0002\u0010t\b\u0001\u0004\u0002\t\u0002\u0004\u0003\t\u0003",
+    "\u0004\u0004\t\u0004\u0004\u0005\t\u0005\u0004\u0006\t\u0006\u0004\u0007",
+    "\t\u0007\u0004\b\t\b\u0004\t\t\t\u0004\n\t\n\u0004\u000b\t\u000b\u0004",
+    "\f\t\f\u0004\r\t\r\u0004\u000e\t\u000e\u0004\u000f\t\u000f\u0003\u0002",
+    "\u0003\u0002\u0003\u0002\u0003\u0002\u0003\u0002\u0003\u0002\u0003\u0002",
+    "\u0003\u0002\u0003\u0002\u0003\u0002\u0003\u0002\u0003\u0003\u0003\u0003",
+    "\u0003\u0004\u0003\u0004\u0003\u0005\u0003\u0005\u0003\u0006\u0003\u0006",
+    "\u0003\u0007\u0003\u0007\u0003\b\u0003\b\u0003\b\u0003\b\u0003\b\u0003",
+    "\b\u0003\t\u0003\t\u0003\t\u0003\t\u0003\t\u0003\t\u0003\t\u0003\n\u0003",
+    "\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\u000b",
+    "\u0003\u000b\u0003\u000b\u0003\u000b\u0003\u000b\u0003\u000b\u0003\u000b",
+    "\u0003\u000b\u0003\u000b\u0003\u000b\u0003\u000b\u0003\u000b\u0003\u000b",
+    "\u0003\u000b\u0005\u000bY\n\u000b\u0003\f\u0003\f\u0007\f]\n\f\f\f\u000e",
+    "\f`\u000b\f\u0003\f\u0003\f\u0003\r\u0006\re\n\r\r\r\u000e\rf\u0003",
+    "\u000e\u0006\u000ej\n\u000e\r\u000e\u000e\u000ek\u0003\u000f\u0006\u000f",
+    "o\n\u000f\r\u000f\u000e\u000fp\u0003\u000f\u0003\u000f\u0002\u0002\u0010",
+    "\u0003\u0003\u0005\u0004\u0007\u0005\t\u0006\u000b\u0007\r\b\u000f\t",
+    "\u0011\n\u0013\u000b\u0015\f\u0017\r\u0019\u000e\u001b\u000f\u001d\u0010",
+    "\u0003\u0002\u0006\u0003\u0002$$\u0003\u00022;\u0004\u0002C\\c|\u0005",
+    "\u0002\u000b\f\u000f\u000f\"\"\u0002x\u0002\u0003\u0003\u0002\u0002",
+    "\u0002\u0002\u0005\u0003\u0002\u0002\u0002\u0002\u0007\u0003\u0002\u0002",
+    "\u0002\u0002\t\u0003\u0002\u0002\u0002\u0002\u000b\u0003\u0002\u0002",
+    "\u0002\u0002\r\u0003\u0002\u0002\u0002\u0002\u000f\u0003\u0002\u0002",
+    "\u0002\u0002\u0011\u0003\u0002\u0002\u0002\u0002\u0013\u0003\u0002\u0002",
+    "\u0002\u0002\u0015\u0003\u0002\u0002\u0002\u0002\u0017\u0003\u0002\u0002",
+    "\u0002\u0002\u0019\u0003\u0002\u0002\u0002\u0002\u001b\u0003\u0002\u0002",
+    "\u0002\u0002\u001d\u0003\u0002\u0002\u0002\u0003\u001f\u0003\u0002\u0002",
+    "\u0002\u0005*\u0003\u0002\u0002\u0002\u0007,\u0003\u0002\u0002\u0002",
+    "\t.\u0003\u0002\u0002\u0002\u000b0\u0003\u0002\u0002\u0002\r2\u0003",
+    "\u0002\u0002\u0002\u000f4\u0003\u0002\u0002\u0002\u0011:\u0003\u0002",
+    "\u0002\u0002\u0013A\u0003\u0002\u0002\u0002\u0015X\u0003\u0002\u0002",
+    "\u0002\u0017Z\u0003\u0002\u0002\u0002\u0019d\u0003\u0002\u0002\u0002",
+    "\u001bi\u0003\u0002\u0002\u0002\u001dn\u0003\u0002\u0002\u0002\u001f",
+    " \u0007h\u0002\u0002 !\u0007q\u0002\u0002!\"\u0007t\u0002\u0002\"#\u0007",
+    "o\u0002\u0002#$\u0007w\u0002\u0002$%\u0007n\u0002\u0002%&\u0007c\u0002",
+    "\u0002&\'\u0007t\u0002\u0002\'(\u0007k\u0002\u0002()\u0007q\u0002\u0002",
+    ")\u0004\u0003\u0002\u0002\u0002*+\u0007}\u0002\u0002+\u0006\u0003\u0002",
+    "\u0002\u0002,-\u0007\u007f\u0002\u0002-\b\u0003\u0002\u0002\u0002./",
+    "\u0007<\u0002\u0002/\n\u0003\u0002\u0002\u000201\u0007?\u0002\u0002",
+    "1\f\u0003\u0002\u0002\u000223\u0007=\u0002\u00023\u000e\u0003\u0002",
+    "\u0002\u000245\u0007v\u0002\u000256\u0007g\u0002\u000267\u0007z\u0002",
+    "\u000278\u0007v\u0002\u000289\u0007q\u0002\u00029\u0010\u0003\u0002",
+    "\u0002\u0002:;\u0007p\u0002\u0002;<\u0007w\u0002\u0002<=\u0007o\u0002",
+    "\u0002=>\u0007g\u0002\u0002>?\u0007t\u0002\u0002?@\u0007q\u0002\u0002",
+    "@\u0012\u0003\u0002\u0002\u0002AB\u0007d\u0002\u0002BC\u0007q\u0002",
+    "\u0002CD\u0007q\u0002\u0002DE\u0007n\u0002\u0002EF\u0007g\u0002\u0002",
+    "FG\u0007c\u0002\u0002GH\u0007p\u0002\u0002HI\u0007q\u0002\u0002I\u0014",
+    "\u0003\u0002\u0002\u0002JK\u0007x\u0002\u0002KL\u0007g\u0002\u0002L",
+    "M\u0007t\u0002\u0002MN\u0007f\u0002\u0002NO\u0007c\u0002\u0002OP\u0007",
+    "f\u0002\u0002PQ\u0007g\u0002\u0002QR\u0007t\u0002\u0002RY\u0007q\u0002",
+    "\u0002ST\u0007h\u0002\u0002TU\u0007c\u0002\u0002UV\u0007n\u0002\u0002",
+    "VW\u0007u\u0002\u0002WY\u0007q\u0002\u0002XJ\u0003\u0002\u0002\u0002",
+    "XS\u0003\u0002\u0002\u0002Y\u0016\u0003\u0002\u0002\u0002Z^\u0007$\u0002",
+    "\u0002[]\n\u0002\u0002\u0002\\[\u0003\u0002\u0002\u0002]`\u0003\u0002",
+    "\u0002\u0002^\\\u0003\u0002\u0002\u0002^_\u0003\u0002\u0002\u0002_a",
+    "\u0003\u0002\u0002\u0002`^\u0003\u0002\u0002\u0002ab\u0007$\u0002\u0002",
+    "b\u0018\u0003\u0002\u0002\u0002ce\t\u0003\u0002\u0002dc\u0003\u0002",
+    "\u0002\u0002ef\u0003\u0002\u0002\u0002fd\u0003\u0002\u0002\u0002fg\u0003",
+    "\u0002\u0002\u0002g\u001a\u0003\u0002\u0002\u0002hj\t\u0004\u0002\u0002",
+    "ih\u0003\u0002\u0002\u0002jk\u0003\u0002\u0002\u0002ki\u0003\u0002\u0002",
+    "\u0002kl\u0003\u0002\u0002\u0002l\u001c\u0003\u0002\u0002\u0002mo\t",
+    "\u0005\u0002\u0002nm\u0003\u0002\u0002\u0002op\u0003\u0002\u0002\u0002",
+    "pn\u0003\u0002\u0002\u0002pq\u0003\u0002\u0002\u0002qr\u0003\u0002\u0002",
+    "\u0002rs\b\u000f\u0002\u0002s\u001e\u0003\u0002\u0002\u0002\b\u0002",
+    "X^fkp\u0003\b\u0002\u0002"].join("");
+
+
+const atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
+
+const decisionsToDFA = atn.decisionToState.map( (ds, index) => new antlr4.dfa.DFA(ds, index) );
+
+export default class FormularioLexer extends antlr4.Lexer {
+
+    static grammarFileName = "Formulario.g4";
+    static channelNames = [ "DEFAULT_TOKEN_CHANNEL", "HIDDEN" ];
+	static modeNames = [ "DEFAULT_MODE" ];
+	static literalNames = [ null, "'formulario'", "'{'", "'}'", "':'", "'='", 
+                         "';'", "'texto'", "'numero'", "'booleano'" ];
+	static symbolicNames = [ null, null, null, null, null, null, null, null, 
+                          null, null, "BOOLEANO", "CADENA", "NUMERO", "ID", 
+                          "WS" ];
+	static ruleNames = [ "T__0", "T__1", "T__2", "T__3", "T__4", "T__5", "T__6", 
+                      "T__7", "T__8", "BOOLEANO", "CADENA", "NUMERO", "ID", 
+                      "WS" ];
+
+    constructor(input) {
+        super(input)
+        this._interp = new antlr4.atn.LexerATNSimulator(this, atn, decisionsToDFA, new antlr4.PredictionContextCache());
+    }
+
+    get atn() {
+        return atn;
+    }
+}
+
+FormularioLexer.EOF = antlr4.Token.EOF;
+FormularioLexer.T__0 = 1;
+FormularioLexer.T__1 = 2;
+FormularioLexer.T__2 = 3;
+FormularioLexer.T__3 = 4;
+FormularioLexer.T__4 = 5;
+FormularioLexer.T__5 = 6;
+FormularioLexer.T__6 = 7;
+FormularioLexer.T__7 = 8;
+FormularioLexer.T__8 = 9;
+FormularioLexer.BOOLEANO = 10;
+FormularioLexer.CADENA = 11;
+FormularioLexer.NUMERO = 12;
+FormularioLexer.ID = 13;
+FormularioLexer.WS = 14;
+
+
+

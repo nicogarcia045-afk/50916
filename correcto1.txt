@@ -1,0 +1,5 @@
+formulario registro {
+  nombre: texto = "Nico";
+  edad: numero = 22;
+  activo: booleano = verdadero;
+}
